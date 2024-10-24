@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/* #btn {
+    padding: 12px 24px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.minus,.plus {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    gap: 40px;
+}
+ */
+
+body {
+    background-color: rgb(81, 9, 81);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.input-box {
+    border-radius: 30px;
+    background-color: #c4c4c4;
+    border: none;
+    padding: 10px 20px;
+    width: 350px;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid violet
+}
+
+.send-button {
+    background-color: rgb(145, 26, 145);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 47, 136);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px 0;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter button {
+    background-color: rgb(78, 21, 78);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+}
+
+.counter span {
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.color-section {
+    margin-top: 20px;
+}
+
+.color-section select,
+.color-section input {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+label {
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 250px;
+}
